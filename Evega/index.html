@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+
+ 
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            Demo
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <a class="dropdown-item" href="#">Section 1</a>
+                        <a class="dropdown-item" href="#">Section 2</a>
+                        <a class="dropdown-item" href="#">Section 3</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary">Appointment</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <section class="hero blue-background">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 ">
+                    <h1 class="mb-3">Good Health Is The Root Of All Happiness</h1>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <h3 class="card-title">123</h3>
+                                    <p class="card-text">Expert Doctors</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <h3 class="card-title">1234</h3>
+                                    <p class="card-text">Medical Staff</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <h3 class="card-title">12345</h3>
+                                    <p class="card-text">Patients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#heroCarousel" data-slide-to="1"></li>
+                            <li data-target="#heroCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/carousel-1.jpg" class="d-block w-100 h-20" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/carousel-2.jpg" class="d-block w-100 h-20" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/carousel-3.jpg" class="d-block w-100 h-20" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <h3 class="text-center">About</h3>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="image-container col-md-6">
+                    <img src="./Images/about-1.jpg" alt="Base Image" class="base-image">
+                    <img src="./Images/about-2.jpg" alt="Base Image" class="overlay-image">
+                    
+                </div>
+                <div class="col-md-6">
+                    <h2>Why You Should Trust Us? Get Know About Us!</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle text-success mr-2"></i> Quality Health Care</li>
+                        <li><i class="fas fa-check-circle text-success mr-2"></i> Only Qualified Doctors</li>
+                        <li><i class="fas fa-check-circle text-success mr-2"></i> Medical Research Professionals</li>
+                    </ul>
+                    <button class="btn btn-primary">Readme More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Health Care Solutions</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-heartbeat fa-2x text-danger mb-2"></i>
+                            <h5 class="card-title">Cardiology</h5>
+                            <p class="card-text">Erat ipsum justo amet duo etr dolor, ea diam sanctus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-lungs fa-2x text-info mb-2"></i>
+                            <h5 class="card-title">Pulmonary</h5>
+                            <p class="card-text">Erat ipsum justo amet duo etr dolor, ea diam sanctus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-brain fa-2x text-warning mb-2"></i>
+                            <h5 class="card-title">Neurology</h5>
+                            <p class="card-text">Erat ipsum justo amet duo etr dolor, ea diam sanctus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-bone fa-2x text-secondary mb-2"></i>
+                            <h5 class="card-title">Orthopedics</h5>
+                            <p class="card-text">Erat ipsum justo amet duo etr dolor, ea diam sanctus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-tooth fa-2x text-primary mb-2"></i>
+                            <h5 class="card-title">Dental Surgery</h5>
+                            <p class="card-text">Erat ipsum justo amet duo etr dolor, ea diam sanctus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-flask fa-2x text-success mb-2"></i>
+                            <h5 class="card-title">Laboratory</h5>
+                            <p class="card-text">Erat ipsum justo amet duo etr dolor, ea diam sanctus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="section bg-light">
+        <div class="container blue-background">
+                <div class="row align-items-center">
+                        <div class="col-md-6">
+                                <h2 class="section-title white-text ">Why Choose Us</h2>
+                                <p class="why-choose-us-description">Tempor erat elitr rebum diam dolor ipsum sit amet consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                                <ul class="why-choose-us-list">
+                                        <li><i class="fas fa-user-md"></i> Experienced Doctors</li>
+                                        <li><i class="fas fa-hospital"></i> Quality Services</li>
+                                        <li><i class="fas fa-comments"></i> Positive Consultation</li>
+                                        <li><i class="fas fa-clock"></i> 24 Hours Support</li>
+                                </ul>
+                        </div>
+                        <div class="col-md-6">
+                                <img src="./Images/feature.jpg" alt="Doctor" class="img-fluid rounded shadow-lg">
+                        </div>
+                </div>
+        </div>
+</section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Our Experienced Doctors</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="doctor-card">
+                        <img src="./Images/team-1.jpg" alt="Doctor 1" class="img-fluid rounded-circle">
+                        <h5 class="doctor-name">Dr. John Doe</h5>
+                        <p class="doctor-specialization">Cardiologist</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="doctor-card">
+                        <img src="./Images/team-2.jpg" alt="Doctor 2" class="img-fluid rounded-circle">
+                        <h5 class="doctor-name">Dr. Jane Smith</h5>
+                        <p class="doctor-specialization">Neurologist</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="doctor-card">
+                        <img src="./Images/team-3.jpg" alt="Doctor 3" class="img-fluid rounded-circle">
+                        <h5 class="doctor-name">Dr. Peter Jones</h5>
+                        <p class="doctor-specialization">Pediatrician</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="doctor-card">
+                        <img src="./Images/team-4.jpg" alt="Doctor 4" class="img-fluid rounded-circle">
+                        <h5 class="doctor-name">Dr. Alice Brown</h5>
+                        <p class="doctor-specialization">Dentist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Make An Appointment To Visit Our Doctor</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-info-text">
+                            <strong>Call Us Now:</strong>
+                            <p>+0123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <i class="far fa-envelope"></i>
+                         <div class="contact-info-text">
+                            <strong>Mail Us Now:</strong>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="appointment-form">
+                        <h3>Book Appointment</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>Choose Doctor</option>
+                                    <option>Doctor 1</option>
+                                    <option>Doctor 2</option>
+                                    <option>Doctor 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Describe Your Problem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-block">Book Appointment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card blue-testimonial">
+                         <img src="./Images/testimonial-1.jpg" alt="Patient" class="testimonial-image">
+                        <p>“Great support from the doctors and staff.  Highly recommend this clinic for any health issue.”</p>
+                        <strong>- Jane Smith</strong>
+                        <p> -  Software Engineer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card blue-testimonial">
+                         <img src="./Images/testimonial-2.jpg" alt="Patient" class="testimonial-image">
+                        <p>“The care and attention I received were outstanding.  I felt very comfortable and well-cared for.”</p>
+                        <strong>- Robert Johnson</strong>
+                        <p> -  Teacher</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card blue-testimonial">
+                         <img src="./Images/testimonial-3.jpg" alt="Patient" class="testimonial-image">
+                        <p>“Excellent facilities and very professional staff.  I am very satisfied with the treatment.”</p>
+                        <strong>- Maria Garcia</strong>
+                         <p> -  Businesswoman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Address</h5>
+                    <p>123 Main Street, City, Country</p>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Services</h5>
+                    <ul class="footer-list-style">
+                        <li><a href="#" class="footer-link">Cardiology</a></li>
+                        <li><a href="#" class="footer-link">Pulmonary</a></li>
+                        <li><a href="#" class="footer-link">Neurology</a></li>
+                        <li><a href="#" class="footer-link">Orthopedics</a></li>
+                        <li><a href="#" class="footer-link">Dental Surgery</a></li>
+                        <li><a href="#" class="footer-link">Laboratory</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-list-style">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">Our Services</a></li>
+                        <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+                        <li><a href="#" class="footer-link">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <p>Dolor sit amet, consectetur adipiscing elit.</p>
+                    <form class="form-inline">
+                        <input type="email" class="form-control form-control-sm mr-2" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary btn-sm">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="row">
+                <div class="col-6">
+                    <p>&copy; 2025 Demo. All Rights Reserved.</p>
+                </div>
+                <div class="col-6 text-right">
+                    <p>Designed by Evega</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
